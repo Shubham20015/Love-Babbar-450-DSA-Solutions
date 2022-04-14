@@ -11,11 +11,11 @@ public class Sort012 {
 	 	check while mid <= high
 	 	if(element == 0)
 	 		swap low,mid
-	 		low--;
+	 		low++;
 	 		mid++;
 	 	else if(element == 2)
 	 		swap mid,high
-	 		high++;
+	 		high--;
 	 	else
 	 		mid++;
 	 */
